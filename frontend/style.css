@@ -12,6 +12,7 @@ overflow: hidden;
 margin-left: auto;
 margin-right: auto;
 margin-top: 100px;
+background-color: blueviolet;
 }
 
 .card img{
@@ -28,4 +29,24 @@ margin-bottom: 20px;
 .card button:hover{
     background-color: burlywood;
     cursor: pointer;
+}
+
+.navbar{
+    border: 2px solid rgb(170, 54, 74);
+    text-align: center;
+    padding: 15px;
+    background-color: white;
+}
+.navbar a{
+        text-decoration: none;
+        padding: 15px;
+
+}
+.navbar a:hover{
+    color: rgb(31, 179, 75);
+    text-decoration: underline;
+}
+body{
+    background-color: rgb(201, 137, 10);
+    margin: 0px;
 }
